@@ -1,0 +1,14 @@
+# Ignore Terraform directories and state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
+
+# Ignore AWS CLI ZIP file
+awscliv2.zip
+aws/
+
+# Ignore temporary files
+*.log
+*.bak
+.DS_Store
